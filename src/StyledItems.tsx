@@ -36,5 +36,9 @@ export const ContentWrapper = styled('div')(({})=>({
     width: '60% !important',
     height:'94vh',
     justifyContent: 'center',
-    padding:'40px 20px 10px 40px'
+    padding:'40px 20px 10px 40px',
+    '@media (max-height: 750px)': {
+        height: '112vh',
+        paddingTop:'150px'
+    },
 }));
